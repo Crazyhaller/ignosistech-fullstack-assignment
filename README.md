@@ -89,32 +89,6 @@ Filtering is handled entirely on the backend and seamlessly integrated with view
 
 ---
 
-## 📂 Project Structure
-
-frontend/
-├── src/
-│ ├── api/
-│ ├── components/
-│ │ ├── map/
-│ │ ├── ui/
-│ ├── hooks/
-│ ├── store/
-│ ├── types/
-
-backend/
-├── src/
-│ ├── controllers/
-│ ├── db/
-│ ├── routes/
-│ ├── services/
-│ ├── utils/
-│ ├── server.ts
-│
-├── scripts/
-│ ├── importCsv.ts
-
----
-
 ## ⚙️ Environment Variables
 
 ### Frontend
