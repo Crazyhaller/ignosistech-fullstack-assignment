@@ -91,31 +91,27 @@ Filtering is handled entirely on the backend and seamlessly integrated with view
 
 ## 📂 Project Structure
 
-```text
 frontend/
 ├── src/
-│   ├── api/
-│   ├── components/
-│   │   ├── map/
-│   │   ├── ui/
-│   ├── hooks/
-│   ├── store/
-│   ├── types/
+│ ├── api/
+│ ├── components/
+│ │ ├── map/
+│ │ ├── ui/
+│ ├── hooks/
+│ ├── store/
+│ ├── types/
 
 backend/
 ├── src/
-│   ├── controllers/
-│   ├── db/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   ├── server.ts
+│ ├── controllers/
+│ ├── db/
+│ ├── routes/
+│ ├── services/
+│ ├── utils/
+│ ├── server.ts
 │
 ├── scripts/
-│   ├── importCsv.ts
-```
-
-````
+│ ├── importCsv.ts
 
 ---
 
@@ -306,6 +302,3 @@ The walkthrough/demo highlights:
 _Full Stack Developer_
 
 React • TypeScript • Node.js • PostgreSQL • Maps & Geospatial Systems
-
-```
-````
