@@ -12,5 +12,7 @@ export interface Store {
   longitude: number
   state: string
   city: string
+  address: string // ✅ added
   status: string
+  type: string // ✅ added
 }
