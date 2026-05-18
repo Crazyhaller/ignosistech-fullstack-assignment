@@ -2,6 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 
+import locationRoutes from './routes/locationRoutes'
+
 dotenv.config()
 
 const app = express()
@@ -14,6 +16,8 @@ app.get('/', (_, res) => {
     message: 'Retail Map API Running',
   })
 })
+
+app.use('/api/locations', locationRoutes)
 
 const PORT = process.env.PORT || 5000
 
